@@ -1,23 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
-  <title>Leonardo Bragantini</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leonardo Bragantini | Robotics Projects</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Ciao, sono Leonardo Bragantini</h1>
-  <p>Questa è la mia pagina personale.</p>
+  <header class="hero">
+    <h1>Leonardo Bragantini</h1>
+    <p>Robotics projects, prototypes and experiments</p>
+  </header>
 
-  <h2>Chi sono</h2>
-  <p>Studente interessato a innovazione, venture capital e tecnologia.</p>
+  <main class="container">
+    <section>
+      <h2>Projects</h2>
+      <p class="intro">
+        A collection of my robotics projects, from prototypes to autonomous systems.
+      </p>
 
-  <h2>Progetti</h2>
-  <ul>
-    <li>Progetto 1</li>
-    <li>Progetto 2</li>
-  </ul>
+      <div class="project-grid">
+        <a class="project-card" href="line-follower.html">
+          <h3>Line Follower Robot</h3>
+          <p>Autonomous robot that follows a line using sensors and motor control.</p>
+        </a>
 
-  <h2>Contatti</h2>
-  <p>Email: tuaemail@example.com</p>
+        <a class="project-card" href="robotic-arm.html">
+          <h3>Robotic Arm</h3>
+          <p>A robotic arm controlled with servos, designed for basic object manipulation.</p>
+        </a>
+
+        <a class="project-card" href="obstacle-avoidance.html">
+          <h3>Obstacle Avoidance Robot</h3>
+          <p>Mobile robot that detects and avoids obstacles using distance sensors.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Leonardo Bragantini</p>
+  </footer>
 </body>
 </html>
 
