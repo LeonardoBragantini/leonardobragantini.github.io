@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SimpleCar | Leonardo Bragantini</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="hero">
+    <h1>SimpleCar</h1>
+    <p>A simple Wi-Fi controlled 3D-printed car prototype</p>
+  </header>
+
+  <main class="container">
+    <p><a href="index.html">← Back to projects</a></p>
+
+    <section>
+      <h2>Project Overview</h2>
+      <p>
+        SimpleCar is one of my first robotics projects. It is a small and simple car prototype
+        designed to experiment with basic movement, steering, 3D-printed parts, and wireless control.
+      </p>
+
+      <p>
+        Since this was an early project, the design is intentionally simple. The main goal was to
+        understand how to combine mechanical components, electronics, and software into a working
+        mobile robot.
+      </p>
+    </section>
+
+    <section>
+      <h2>Image</h2>
+
+      <img 
+        src="images/SimpleCar_1.png" 
+        alt="SimpleCar 3D-printed Wi-Fi controlled car prototype" 
+        class="project-image"
+      >
+    </section>
+
+    <section>
+      <h2>Prototype Description</h2>
+      <p>
+        The car uses a 3D-printed chassis that holds the main mechanical and electronic components.
+        For traction, it uses a DC motor with a gearbox, while steering is controlled by an SG90S
+        servo motor.
+      </p>
+
+      <p>
+        The microcontroller is an Arduino UNO WiFi. Thanks to its Wi-Fi functionality, the car can be
+        controlled wirelessly from a phone. The Arduino creates or uses a Wi-Fi connection, and the user
+        can connect to it with a smartphone to send movement commands to the vehicle.
+      </p>
+    </section>
+
+    <section>
+      <h2>Main Components</h2>
+      <ul>
+        <li>3D-printed chassis</li>
+        <li>Arduino UNO WiFi</li>
+        <li>DC motor with gearbox for traction</li>
+        <li>SG90S servo motor for steering</li>
+        <li>Wi-Fi based remote control from smartphone</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Control System</h2>
+      <p>
+        SimpleCar is controlled through the Wi-Fi capabilities of the Arduino UNO WiFi. By connecting
+        a smartphone to the Arduino's Wi-Fi network, the user can control the car remotely without using
+        a physical remote controller.
+      </p>
+
+      <p>
+        This setup allowed me to test a basic wireless control architecture and understand how a mobile
+        robot can receive commands from an external device in real time.
+      </p>
+    </section>
+
+    <section>
+      <h2>What I Learned</h2>
+      <p>
+        Through this project, I learned the basics of integrating a 3D-printed mechanical structure
+        with motors, steering control, and a microcontroller. It was a simple but important first step
+        toward more advanced robotics projects.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Leonardo Bragantini</p>
+  </footer>
+</body>
+</html>
