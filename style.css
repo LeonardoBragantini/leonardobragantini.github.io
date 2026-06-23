@@ -69,3 +69,11 @@ footer {
   padding: 30px;
   color: #6b7280;
 }
+
+.project-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 16px;
+  margin: 20px 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
