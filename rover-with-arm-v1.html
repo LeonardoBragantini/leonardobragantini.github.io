@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rover With Arm V1 | Leonardo Bragantini</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="hero">
+    <h1>Rover With Arm</h1>
+    <p>Version 1 — Wi-Fi controlled rover with a small robotic arm</p>
+  </header>
+
+  <main class="container">
+    <p><a href="index.html">← Back to projects</a></p>
+
+    <section>
+      <h2>Project Overview</h2>
+      <p>
+        Rover With Arm is a wheeled rover designed to move in multiple directions while carrying
+        a small mechanical arm on top.
+      </p>
+
+      <p>
+        The purpose of this robot was to hand me objects during a video interview for the
+        <strong>InCube Challenge</strong> organized by the <strong>ETH Zurich Entrepreneurship Club</strong>.
+        The interview was successful and allowed me to move on to the next stage of the selection process,
+        which consisted of three rounds.
+      </p>
+    </section>
+
+    <section>
+      <h2>Prototype Gallery</h2>
+
+      <div class="gallery">
+        <img src="images/ArmRover_Version1_1.png" alt="Rover With Arm version 1 image 1">
+        <img src="images/ArmRover_Version1_2.png" alt="Rover With Arm version 1 image 2">
+        <img src="images/ArmRover_Version1_3.png" alt="Rover With Arm version 1 image 3">
+      </div>
+    </section>
+
+    <section>
+      <h2>Mechanical Design</h2>
+      <p>
+        The base of the rover was recovered from a toy I had as a child. It uses two
+        <strong>RS380 DC motors</strong> for movement.
+      </p>
+
+      <p>
+        The robotic arm is 3D-printed and uses three micro servos, allowing it to move in different
+        directions and perform simple predefined gestures.
+      </p>
+    </section>
+
+    <section>
+      <h2>Control System</h2>
+      <p>
+        This version is remotely controlled from a smartphone using the Wi-Fi capabilities of the
+        <strong>Arduino UNO WiFi</strong>. By connecting the phone to the Arduino's Wi-Fi network,
+        the user can control both the movement of the rover and the actions of the robotic arm.
+      </p>
+
+      <p>
+        In addition to manual movement control, the arm can execute predefined actions, such as
+        <strong>“hand over the object”</strong> or <strong>“wave”</strong>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Main Components</h2>
+      <ul>
+        <li>Recovered toy rover base</li>
+        <li>Two RS380 DC motors</li>
+        <li>3D-printed robotic arm</li>
+        <li>Three micro servos for arm movement</li>
+        <li>Arduino UNO WiFi</li>
+        <li>Wi-Fi control from smartphone</li>
+        <li>Predefined robotic arm actions</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Purpose of the Prototype</h2>
+      <p>
+        The goal of this project was to create a simple but functional robot capable of interacting
+        physically with its environment during a real scenario. In this case, the rover was used to
+        deliver objects during an interview, combining mobility, remote control, and basic robotic
+        manipulation.
+      </p>
+
+      <p>
+        Even though this was an early version, it represented an important step in experimenting with
+        mobile robotics, 3D-printed mechanisms, and human-robot interaction.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Leonardo Bragantini</p>
+  </footer>
+</body>
+</html>
